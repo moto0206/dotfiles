@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/c/Users/本山尚暉/Source/Develop-SupplierBuyer/TOPPAN_SupplierBuyer'
+let g:netrw_dirhist_7='/c/Users/本山尚暉/Source/Develop-SupplierBuyer'
+let g:netrw_dirhist_6='/c/Users/本山尚暉/Source'
+let g:netrw_dirhist_5='/c/Users/本山尚暉/Source/Develop-SupplierBuyer/TOPPAN_SupplierBuyer'
+let g:netrw_dirhist_4='/c/Users/本山尚暉/Source/Develop-SupplierBuyer/TOPPAN_SupplierBuyer/force-app'
+let g:netrw_dirhist_3='/c/Users/本山尚暉/Source/Develop-SupplierBuyer/TOPPAN_SupplierBuyer/force-app/main'
+let g:netrw_dirhist_2='/c/Users/本山尚暉/Source/Develop-SupplierBuyer/TOPPAN_SupplierBuyer/force-app/main/default'
+let g:netrw_dirhist_1='/c/Users/本山尚暉/Source/Develop-SupplierBuyer/TOPPAN_SupplierBuyer/force-app/main/default/classes'
+let g:netrw_dirhist_0='/c/Users/本山尚暉/Source/Develop-SupplierBuyer/TOPPAN_SupplierBuyer/force-app/main/default'
+let g:netrw_dirhist_9='/c/Users/本山尚暉/Source/Develop-SupplierBuyer/TOPPAN_SupplierBuyer/force-app/main'
