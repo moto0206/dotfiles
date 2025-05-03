@@ -36,6 +36,15 @@ autocmd!
 autocmd FileType vim setlocal keywordprg=:help
 augroup END 
 nnoremap <Leader>ev :e ~/dotfiles/.vimrc
-nnoremap <Leader>cv :e ~/dotfiles/cheatsheets/vim.txt
+nnoremap <Leader>ch :e ~/dotfiles/cheatsheets/cheatSheet.txt
 nnoremap q: <Nop>
+
+let s:lastiminsert = 0
+" IMEの状態を保持しておく、置換モードではIMEの状態を保持しない
+" 置換モードではIMEの状態を保持しない。置換モードではIMEオフなので、置換モード後の挿入モードが常にIMEオフになることを避ける
+autocmd InsertLeave * if v:insertmode !=# 'r' | let s:lastiminsert = &iminsert | set iminsert=0 | endif
+" IMEの状態を復帰する。改行時には続けてIMEオンのままにしたいため。
+" 挿入モード（IMEオン）→ノーマルモード→挿入モード（IMEオン） となるが。これはむしろできなくていい
+" 置換モードではIMEの状態を復帰しない
+autocmd InsertEnter * if v:insertmode ==# 'i' | let &iminsert = s:lastiminsert | endif
 
